@@ -1,0 +1,16 @@
+----------------------------------------------------------------------------------------------------------
+Si es primera vez
+
+Descargamos el CLI de heroku => sudo curl https://cli-assets.heroku.com/install.sh | sh
+Hacemos login => heroku login
+----------------------------------------------------------------------------------------------------------
+
+1) Creamos el proyecto en heroku => heroku create
+
+2) Especificamos en el package.json la version de node
+
+ "engines": {
+    "node": "16.x"
+  }
+
+3) 
